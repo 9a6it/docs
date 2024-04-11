@@ -6,7 +6,7 @@ Vue (произносится /vjuː/, как **view**) - это JS-фреймв
 
 Вот простейший пример:
 
-```vue
+```js
 import { createApp } from 'vue'
 
 createApp({
@@ -16,7 +16,8 @@ createApp({
     }
   }
 }).mount('#app')
-
+```
+```html
 <div id="app">
   <button @click="count++">
     Count is: {{ count }}
